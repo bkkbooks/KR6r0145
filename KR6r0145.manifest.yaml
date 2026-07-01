@@ -1,0 +1,81 @@
+canonical_identifier: bkk:krp/KR6r0145/v1
+canonical_location: https://kanripo.org/bkk/KR6r0145/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 甄正論
+  identifiers:
+    alt_id:
+    - T52n2112
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T52/T52n2112.xml
+    old_id: T52n2112
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0145_000.yaml, hash: 'sha256:07867845a99a704b803ddf2b935331bb4015a58938e629287eea2e2ce631ed88'}
+  - {seq: 1, filename: KR6r0145_001.yaml, hash: 'sha256:7d87e3eeb009accc1d5bc26f77a79410f42a101f0441f90622ace7872bbe6088'}
+  - {seq: 2, filename: KR6r0145_002.yaml, hash: 'sha256:2500db212c893c63252c3b09077777a4bfbe8591c55a646596ba7258f50bf240'}
+  - {seq: 3, filename: KR6r0145_003.yaml, hash: 'sha256:5044f78b562198736dbdcf835bea97e0a4043eb3b4d90a6d389b526287947d4a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6r0145_001.markers.yaml, hash: 'sha256:c3cde5e191ac916614a3aa9663b959fb93d67bcee927d3fb7a41e93cad5c4e7e'}
+  - {seq: 2, role: markers, filename: assets/KR6r0145_002.markers.yaml, hash: 'sha256:208dcd0f47975cca355afc5d9751c6a089ca0e1c2cfdeca834ce1cc6d91e4810'}
+  - {seq: 3, role: markers, filename: assets/KR6r0145_003.markers.yaml, hash: 'sha256:27a89074807deb998c5338772d436a33cb3e9a4caec6bb04343e37e0233db17a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6r0145_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4654
+  label: 甄正論卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6r0145_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 6186
+  label: 甄正論卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6r0145_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 5106
+  label: 甄正論卷下
+  type: juan
+  level: 1
+hash: sha256:fa28b3e487917c71b7099e8f41b0b57378ce4ac2bc62e76f320483a93fbc5724
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6r0145/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 甄正論
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T52/T52n2112.xml
+    old_id: T52n2112
+hash: sha256:07867845a99a704b803ddf2b935331bb4015a58938e629287eea2e2ce631ed88
