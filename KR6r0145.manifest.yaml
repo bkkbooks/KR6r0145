@@ -37,13 +37,14 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6r0145_000.yaml, hash: 'sha256:07867845a99a704b803ddf2b935331bb4015a58938e629287eea2e2ce631ed88'}
-  - {seq: 1, filename: KR6r0145_001.yaml, hash: 'sha256:7d87e3eeb009accc1d5bc26f77a79410f42a101f0441f90622ace7872bbe6088'}
-  - {seq: 2, filename: KR6r0145_002.yaml, hash: 'sha256:2500db212c893c63252c3b09077777a4bfbe8591c55a646596ba7258f50bf240'}
-  - {seq: 3, filename: KR6r0145_003.yaml, hash: 'sha256:5044f78b562198736dbdcf835bea97e0a4043eb3b4d90a6d389b526287947d4a'}
+  - {seq: 1, filename: KR6r0145_001.yaml, hash: 'sha256:ab97f51b979d26ec933298f3396a83ea166fd7b7fde6cfb7b8a3fff01f6d1f03'}
+  - {seq: 2, filename: KR6r0145_002.yaml, hash: 'sha256:4db324d8cd0223f92506a9c627b07af5af13f37312ec6b45e7c88291bfc258a8'}
+  - {seq: 3, filename: KR6r0145_003.yaml, hash: 'sha256:70b17042ef1cb5590e3c31bbf64c34352292d417abad03903b707a9be3667a4c'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6r0145_001.markers.yaml, hash: 'sha256:c3cde5e191ac916614a3aa9663b959fb93d67bcee927d3fb7a41e93cad5c4e7e'}
-  - {seq: 2, role: markers, filename: assets/KR6r0145_002.markers.yaml, hash: 'sha256:208dcd0f47975cca355afc5d9751c6a089ca0e1c2cfdeca834ce1cc6d91e4810'}
-  - {seq: 3, role: markers, filename: assets/KR6r0145_003.markers.yaml, hash: 'sha256:27a89074807deb998c5338772d436a33cb3e9a4caec6bb04343e37e0233db17a'}
+  - {seq: 0, role: markers, filename: assets/KR6r0145_000.markers.yaml, hash: 'sha256:6af4989f0295f8b26a242025e578a310937b8c6b84a47f14982645526179f5ad'}
+  - {seq: 1, role: markers, filename: assets/KR6r0145_001.markers.yaml, hash: 'sha256:94d00a798da71f8ae950d9dd1da03f1d1c329dbf451d27e7de14bcb7c2c0d881'}
+  - {seq: 2, role: markers, filename: assets/KR6r0145_002.markers.yaml, hash: 'sha256:b2af293d4f045a58a3c2d9aa80c83c0c1dc0b36587002554b20c8bfb7ac7bea3'}
+  - {seq: 3, role: markers, filename: assets/KR6r0145_003.markers.yaml, hash: 'sha256:0d1a2f06357cf7ea807daa30326cb3d77090b3723788e6158593b547283fc693'}
 table_of_contents:
 - ref:
     seq: 1
@@ -75,7 +76,4 @@ table_of_contents:
   label: 甄正論卷下
   type: juan
   level: 1
-hash: sha256:fa28b3e487917c71b7099e8f41b0b57378ce4ac2bc62e76f320483a93fbc5724
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:5ed0144a1e009f6da3ed3092153c2e8b90a1678c7dc1041f3f6f4cb278fe027c
